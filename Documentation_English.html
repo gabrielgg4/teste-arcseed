@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/shapes_small.png" rel="icon" />
+<title>Documentation | Arcseed AI</title>
+<meta name="description" content="Arcseed AI documentation page">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+
+<!-- Here goes your Colors Css -->
+<link rel="stylesheet" type="text/css" href="assets/css/color-red.css" /> 
+
+</head>
+
+<body  data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-text-light">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/shapes_small.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            
+            <li><a target="_blank" href="https://arcseedai.com/">Home</a></li>
+            <li><a target="_blank" href="https://arcseedai.com/footer">Support</a></li>
+          </ul>
+        </div>
+        <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+          <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-dark docs-navigation-dark">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Registering</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">Choosing Plan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_sass">RPs(render points)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">Precision</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_layout">Community Guidelines</a>
+          <ul class="nav flex-column">
+			<li class="nav-item"><a class="nav-link" href="#idocs_header">Observations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_content">Tools</a>
+			<ul class="nav flex-column">
+			<li class="nav-item"><a class="nav-link" href="#idocs_genpages">Render Pages</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_overview">Overview</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_genicons">Icons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_typography">Common Parameters</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_code">Modes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_table">Seed</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_icons">Type</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_image">What</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_video">Time</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_where">Where</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_weather">Weather</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_style">Style</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_cp">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_materials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_visibility">Visibility</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_precision">Precision</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_render">Render Button</a></li>
+			
+          </ul>
+		</li>
+        <li class="nav-item"><a class="nav-link" href="#idocs_brainstormgen">BRAINSTORM GEN</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_bspageoverview">First Configurations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_bscustomizations">Customizations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_bscolorpalette">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_bsmaterials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_bsfinetuning">Fine-Tuning</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_bsrendering">Rendering</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_sketch2render">SKETCH 2 RENDER</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_skt2rpageoverview">First Configurations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_skt2rcustomizations">Customizations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_skt2rcolorpalette">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_skt2rmaterials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_skt2rfinetuning">Fine-Tuning</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_skt2rrendering">Rendering</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_canvas">CANVAS ALCHEMY</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_capageoverview">First Configurations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_cacustomizations">Customizations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_cacolorpalette">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_camaterials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_cafinetuning">Fine-Tuning</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_carendering">Rendering</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_rerender">RE-RENDER</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_rrenderpageoverview">First Configurations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_rrendercustomizations">Customizations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_rrendercolorpalette">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_rrendermaterials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_rrenderfinetuning">Fine-Tuning</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_rrenderrendering">Rendering</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_redecorate">REDECORATE (beta)</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_redpageoverview">First Configurations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_redcustomizations">Customizations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_redcolorpalette">Color Palette</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_redmaterials">Materials</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_redfinetuning">Fine-Tuning</a></li>
+			<li class="nav-item"><a class="nav-link" href="#idocs_redrendering">Rendering</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_faq">FAQ</a></li>
+		<li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
+			<ul class="nav flex-column">
+            <!--- <li class="nav-item"><a class="nav-link" href="#v1-1">v1.1</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
+          </ul>
+		</li>
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content bg-dark text-white">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+        <h1>Documentation</h1>
+        <h2>Setting Up Your Account</h2>
+        <p class="lead">The <strong>Arcseed AI</strong> offers you many tools crafted to be easy to use, still there are secrets and tricks to improve the overall quality of the renderings that you may uncover here!<br> Remember that AI is still in its infancy, the results may not be 100% precise but this is how AI works at this stage, still we intend to improve it so you have the best quality renders fast and with minimal cost.</p>
+
+        <p class="alert alert-info">This documentation resourse will try to elucidade all of your questions but if you still have doubts please contact us through our <a target="_blank" href="https://www.arcseedai.com/">Contact page</a>.</p>
+        </section>
+
+		<hr class="divider">
+		
+        <!-- Installation
+		============================ --> 
+        <section id="idocs_installation">
+		  <h2>Registering</h2>
+          <p class="lead">Follow the steps below to sign in and log in to the platform.</p>
+          <ol>
+            <li>If you are not subscribed to our platform do it <strong><a target="_blank" href="https://www.arcseedai.com/Register">here</a></strong> and fill up all the information needed.</li>
+            <li>To login to our platform do it <strong><a target="_blank" href="https://www.arcseedai.com/login">here</a></strong>.</li>
+			<li>If you forgot your password click <strong><a target="_blank" href="https://www.arcseedai.com/ForgotPasswordEmail">here</a></strong>.</li>
+
+          </ol>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="idocs_html_structure">
+		  <h2>Choosing a Plan</h2>
+          <p class="lead">To start rendering you have to pick a plan <strong><a target="_blank" href="https://www.arcseedai.com/ForgotPasswordEmail">here</a></strong> , we have four plans available.</p>
+		  <hr>
+		  <img src="assets/images/Planos_portuguese.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+          <ol>
+            <li><strong><code>Free</code></strong></li>
+			<ul>
+			<li> Cost R$0,00.</li>
+			<li> Up to 20 renderings per month.</li>
+				<ul>
+                <li>Each tool uses a different ammount of RPs(Render Points) per rendering, see Render Points to know more.</li>
+              </ul>
+			<li> Render in Standard Quality.</li>
+			<li> Render in Pro Quality.</li>
+			<li> 100mb of Storage for your created images.</li>
+			<ul>
+                <li>Please Pay attention! If you exceede the 100mb of storage the older images will be erased and we won't be able to recover the files.</li>
+              </ul>
+			<li> Only public images can be created.</li>
+			<li> Possibility of inviting friends to recharge render points.</li>
+			<ul>
+                <li>Every new registered friend will grant you 10 RPs(render points).</li>
+              </ul>
+			<li> Only one simultaneous login per account.</li>
+			<li> A few not intrusive Adds(this allow us to keep the server running for free users).</li>
+			<ul>
+                <li>There is no intrusive adds that will hinder your experience, the adds are there to fill empty spaces and while you render your image, it helps us covering the free server costs, We are a very small business and we do that so we can spend a little less in server costs.</li>
+              </ul>
+			  
+			  
+			<hr>
+			
+			</ul>
+			
+			<li><strong><code>Enthusiast</code></strong></li>
+			<ul>
+			<li> Cost R$46,90.</li>
+			<li> Up to 300 renderings per month.</li>
+				<ul>
+                <li>Each tool uses a different ammount of RPs(Render Points) per rendering, see Render Points to know more.</li>
+              </ul>
+			<li> Render in Standard Quality.</li>
+			<li> Render in Pro Quality.</li>
+			<li> Extra refinement.</li>
+			<li> 2GB of Storage for your created images.</li>
+			<ul>
+                <li>Please Pay attention! If you exceede the 100mb of storage the older images will be erased and we won't be able to recover the files.</li>
+              </ul>
+			<li> Possibility to choose either public or private images.</li>
+			<ul>
+                <li>The private images will be only accessable to you inside of your personal gallery through <a target="_blank" href="https://www.arcseedai.com/PersonalGallery">this</a> link or inside your Dashboard.</li>
+              </ul>
+			<li> Avanced rendering tools(coming soon).</li>
+			<ul>
+                <li>We are implementing a more advanced tool for professional users so they will be able to modify more parameters to create even more precise renderings.</li>
+              </ul>
+			<li> Only one simultaneous login per account.</li>
+			<li> Only one Add presented on the rendering process(this allow us to keep the service cheaper).</li>
+			<ul>
+                <li>There is only one Add that is shown while the image is rendering, its a wait time for the server to process your rendering and it does not slows down the process and its not intrusive. We are a very small business and we do that so we can spend a little less in server costs.</li>
+              </ul>
+			<li> Possibility to recharge RPs(render points).</li>
+			<ul>
+                <li>The cost per 100 points is R$15,00 in the Enthusiast plan, we sell a minnimum ammount of 100 because of the payment platforms that takes a chunk of the payment and also the server costs that are high, but after the minnimum recharge ammount you can add more RPs in groups of 100.</li>
+              </ul>
+			<hr>
+			</ul>
+			
+			<li><strong><code>Professional</code></strong></li>
+			<ul>
+			<li> Cost R$98,90.</li>
+			<li> Up to 1000 renderings per month.</li>
+				<ul>
+                <li>Each tool uses a different ammount of RPs(Render Points) per rendering, see Render Points to know more.</li>
+              </ul>
+			<li> Render in Standard Quality.</li>
+			<li> Render in Pro Quality.</li>
+			<li> Extra refinement.</li>
+			<li> 2GB of Storage for your created images.</li>
+			<ul>
+                <li>Please Pay attention! If you exceede the 100mb of storage the older images will be erased and we won't be able to recover the files.</li>
+              </ul>
+			<li> Possibility to choose either public or private images.</li>
+			<ul>
+                <li>The private images will be only accessable to you inside of your personal gallery through <a target="_blank" href="https://www.arcseedai.com/PersonalGallery">this</a> link or inside your Dashboard.</li>
+              </ul>
+			<li> Avanced rendering tools(coming soon).</li>
+			<ul>
+                <li>We are implementing a more advanced tool for professional users so they will be able to modify more parameters to create even more precise renderings.</li>
+              </ul>
+			<li> Only one simultaneous login per account.</li>
+			<li> Only one Add presented on the rendering process(this allow us to keep the service cheaper).</li>
+			<ul>
+                <li>There is only one Add that is shown while the image is rendering, its a wait time for the server to process your rendering and it does not slows down the process and its not intrusive. We are a very small business and we do that so we can spend a little less in server costs.</li>
+              </ul>
+			<li> Possibility to recharge RPs(render points).</li>
+			<ul>
+                <li>The cost per 300 points is R$30,00 in the Enthusiast plan, we sell a minnimum ammount of 100 because of the payment platforms that takes a chunk of the payment and also the server costs that are high, but after the minnimum recharge ammount you can add more RPs in groups of 100.</li>
+              </ul>
+			<hr>
+			</ul>
+			
+			<li><strong><code>Empresarial</code></strong></li>
+			<ul>
+			<li> Cost R$298,90.</li>
+			<li> Up to 4000 renderings per month.</li>
+				<ul>
+                <li>Each tool uses a different ammount of RPs(Render Points) per rendering, see Render Points to know more.</li>
+              </ul>
+			<li> Render in Standard Quality.</li>
+			<li> Render in Pro Quality.</li>
+			<li> Extra refinement.</li>
+			<li> 2GB of Storage for your created images.</li>
+			<ul>
+                <li>Please Pay attention! If you exceede the 100mb of storage the older images will be erased and we won't be able to recover the files.</li>
+              </ul>
+			<li> Possibility to choose either public or private images.</li>
+			<ul>
+                <li>The private images will be only accessable to you inside of your personal gallery through <a target="_blank" href="https://www.arcseedai.com/PersonalGallery">this</a> link or inside your Dashboard.</li>
+              </ul>
+			<li> Avanced rendering tools(coming soon).</li>
+			<ul>
+                <li>We are implementing a more advanced tool for professional users so they will be able to modify more parameters to create even more precise renderings.</li>
+              </ul>
+			<li> Only one simultaneous login per account.</li>
+			<li> Only one Add presented on the rendering process(this allow us to keep the service cheaper).</li>
+			<ul>
+                <li>There is only one Add that is shown while the image is rendering, its a wait time for the server to process your rendering and it does not slows down the process and its not intrusive. We are a very small business and we do that so we can spend a little less in server costs.</li>
+              </ul>
+			<li> Possibility to recharge RPs(render points).</li>
+			<ul>
+                <li>The cost per 1000 points is R$75,00 in the Enthusiast plan, we sell a minnimum ammount of 100 because of the payment platforms that takes a chunk of the payment and also the server costs that are high, but after the minnimum recharge ammount you can add more RPs in groups of 100.</li>
+              </ul>
+			<hr>
+			</ul>
+			
+			
+
+
+          </ol>
+        </section>
+        
+		<hr class="divider">
+		        
+		<!-- RPS
+		============================ -->
+        <section id="idocs_sass">
+          <h2>RPs(render points)</h2>
+          <p>Render Points are the resource used to render the images on the platform, each tool uses a different ammount of resources. You can see the ammount you have left of Render points on the top right of your screen. </p>
+		  <img src="assets/images/RPs.webp" class="img-fluid" alt="Responsive image">
+		  <p>You don't need to memorize anything, the ammount used per render will be displayed on the render button as you can see on the image below, but there are colors corresponding to each ammount used so it is easier to remember, the colors being:</p>
+		  <div style="background-color: #a1ff80 ;"> <li style=color:black > <strong>USES 1 RP</strong></li></div>
+		  <div style="background-color: #fffe80;"> <li style=color:black> <strong>USES 2 RP</strong></li></div>
+		  <div style="background-color: #fcac7f;"> <li style=color:black><strong>USES 3 RP</strong></li></div>
+		  <div style="background-color: #E74B3F;"> <li style=color:black> <strong>USES 4 RP</strong></li></div>
+		  <div style="background-color: #80d5ff;"> <li style=color:black> <strong>USES 5 RP</strong></li></div>
+		  <hr>
+		  <h2>Recharging RPs</h2>
+
+		  <p>You can recharge your render points in your Dashboard under your Subscription Settings <strong><a target="_blank" href="https://www.arcseedai.com/Dashboard">here</a></strong> once you are logged in.
+		  <br>you can add or remove RPs by clicking on the + or - Signs. After you picked how many RPs you want just click on Add to be taken to the payment platform and finish your transaction, after the payment is processed the resources will be added to your account.
+		  <br>There is always a minimum ammount of points to add depending on wich Subscription Plan you picked. We have the minimum value because we need to pay a high percentage of the value to the server and for the payment platform but after the minimum you can add RPs in ammounts of 100 up to the ammount you need.</p>
+		  <li>Enthusiast : minimum of 100 points</li>
+		  <li>Professional : minimum of 300 points  </li>
+		  <li>Enterprise : minimum of 1000 points</li>
+		  <hr>
+		  <img src="assets/images/recharging.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <p>The list of resources used per Tool is as follows:</p>
+		  <li><strong>Brainstorm Gen</strong></li>
+		  <ul>
+                <li>Standard - 1 RP</li>
+		        <li>Professional - 2 RP</li>
+              </ul>
+		  <li><strong>Sketch 2 Render</strong></li>
+		  <ul>
+                <li>Standard - 2 RP</li>
+		        <li>Professional - 3 RP</li>
+              </ul>
+		  <li><strong>Canvas Alchemy</strong></li>
+		  <ul>
+                <li>Standard (just style image) - 1 RP</li>
+		        <li>Professional (just style image) - 2 RP</li>
+                <li>Standard (both Style and to be stylized images) - 2 RP</li>
+		        <li>Professional (both Style and to be stylized images) - 3 RP</li>
+              </ul>
+		  <li><strong>Re-Render</strong></li>
+		  <ul>
+                <li>Standard - 2 RP</li>
+		        <li>Professional - 3 RP</li>
+              </ul>
+	      <li><strong>Redecorate</strong></li>
+		  <ul>
+                <li>Standard - 2 RP</li>
+		        <li>Professional - 3 RP</li>
+              </ul>
+		  <li><strong>Refining</strong></li>
+		  <ul>
+                <li>Standard - 5 RP</li>
+              </ul>
+		  
+			  
+		<hr class="divider">
+		
+		<!-- Precision
+		============================ -->
+        <section id="idocs_color_schemes">
+          <h2>Precision</h2>
+          <p>There are two precision levels to render with, the <strong>Standard</strong> and the <strong>Professional</strong>.</P>
+          <ul>
+            <li><code>Standard</code> - Requires less RPs to render but generates smaller and a little less precise images.</li>
+			<a class="popup-img" href="assets/images/Standard_Example.webp">
+			<img src="assets/images/Standard_Example_sc.webp" class="img-fluid img-thumbnail" alt="image">
+			</a>
+			<li><code>Professional</code> - Requires more RPs to render and generate bigger images with more details.</li>
+			<a class="popup-img" href="assets/images/Pro_Example.webp">
+			<img src="assets/images/Pro_Example_sc.webp" class="img-fluid img-thumbnail" alt="image">
+			</a>
+          </ul>
+		  <p> <strong>OBS</strong> : Keep in mind that the enhance in quality from standard to professional may vary, since the AI is trying to create a new image on top of the other it may change a few details of it.</p>
+		  <hr>
+
+
+		<!-- Layout
+		============================ -->
+        <section id="idocs_layout">
+          <h2>Comunity Guidelines</h2>
+          <p class="lead mb-5">We would like to ask you all to try to keep the peace and be respectful to other users. On all of our comunities or servers, try not to offend, use swearings or other offensive  therms, try not to get into political slurring, we don't mind debating but as long as its healthy and not ofensive.<br> That said:
+		  </p>
+		  <li> Be kind and respect each other, if you are an advanced user don't create disrespectful or agressive imagery. Harassment won't be tolerated.</li>
+		  <br>
+		  <li> If you are an advanced user don't create adult content or violent images if you are an advanced user. Premium users can hide their content by making the renderings private, if you intent to make tests of NSFW images (wich are forbideen) always hide the content from others, if you forget and the image end up on the public gallery your account can be banned and you can face legal repercussions by any ofended member of the community.</li>
+		  <br>
+		  <li> We don't want to block functionalities or add censorship to our tools like most of the other generative tools do, we just ask for you to be careful and respect the other users.</li>
+		  <hr>
+		  
+        </section>
+		
+		
+        <!-- Header
+		============================ -->
+        <section id="idocs_header">
+          <h2>Observations</h2>
+          <p class="lead mb-5">These probably have a higher probabilty to happen on the Advanced user toolset but are related to any render tool. The whole idea of our platform is for Architects, Civil Engeneers and Interior designers to create amazing renderings of Architectural elements, not unrelated content, specially disrespectful, violent or NSFW images.
+		  </p>
+		  <li> What is a disrespectful image?</li>
+		  <ul>
+                <li>Anything that can be deemed offensive to  a person because of religion(or lack of one), race, sexuality, group or individuals including celebrities or public figures.</li>
+              </ul>
+		  <li> What is Adult content or NSFW?</li>
+		  <ul>
+                <li>Any image with any sort of nudity, sexual content, naked bodies(even artistical), sexual organs, fetishes, etc.</li>
+              </ul>
+		  <li> What is violent images?</li>
+		  <ul>
+                <li>Any sort of violent act towards any living creature, ilness or related disturbing material that can be viewed and understood as graphic for an user.</li>
+              </ul>
+
+        </section>
+		
+		<hr class="divider">
+		
+			
+		<!-- Content 
+		============================  -->
+        <section id="idocs_content">
+          <h2>Tools</h2>
+          <p class="lead mb-5">Currently we have 5 available tools to use, we call them render pages, beign, <strong>Brainstorm Gen</strong>, <strong>Sketch 2 Render</strong>, <strong>Canvas Alchemy</strong>, <strong>Re-Render</strong>, <strong>Redecorate (BETA)</strong>.<br>Always Keep in mind that we are dealing with neural networks, its our first steps to an amazing future but we are still on its beggining, the platform will improve and become better month by month. 
+          <p class="lead mb-5">Currently we have 5 available tools to use, we call them render pages, beign, <strong>Brainstorm Gen</strong>, <strong>Sketch 2 Render</strong>, <strong>Canvas Alchemy</strong>, <strong>Re-Render</strong>, <strong>Redecorate (BETA)</strong>.<br>Always Keep in mind that we are dealing with neural networks, its our first steps to an amazing future but we are still on its beggining, the platform will improve and become better month by month. 
+		  <br>The AI will make mistakes and not understand comands properly sometimes, its normal behavior for the Technology, but our intent is to make it as perfect as it can be so you have the best experience while always trying our best to keep affortable and fair prices.</p>
+		  
+        </section>
+		<hr class="divider">
+		  
+		<!-- Render pages
+		============================ -->
+		<section id="idocs_genpages">
+		  <h2>Render Pages</h2>
+		  <p class="text-4">The Render Pages are the most important parts of our platform, on them you can perform different rendering tasks on each of the available pages, keep in mind that every page has a slightly different layout.
+		  <br>To access the render pages you will need to be first logged in, then click on the
+		  <br>The pages being:</p>
+		  <hr>
+		  <li> <Strong>Brainstorm Gen</strong>: In this page you can render images from basic input choices like the type of creationg, what it is, the weather, etc..., this tool is perfect for brainstorming ideas or concepts fast.</li><br>
+		  <li> <Strong>Sketch 2 Render</strong>: In this page you can render images from image inputs, the images can be a screenshot of your 3D software, a hand drawn sketch, a picture of an under construction building, etc... You can create an infinite ammount of designs or possibilities, facilitating and speeding up the overall creative process.</li><br>
+		  <li> <Strong>Canvas Alchemy</strong>: This is an artistic rendering tool, add a style image that can be a famous paiting, an incredible landscape, a logo, etc... and our tool will try to recreate the environement with that style. This tool tries to imagine possibilities, it is perfect for instagram posts or to gift your clients with amazing unique designs from creations you deliver.</li><br>
+		  <li> <Strong>Re-render</strong>: With Re-render you can take an old render and give the AI to process it and make it more realistic and harmonic. This tool is perfect to increase the quality of any 3D rendering you made and bring it to the a high level standard.</li><br>
+		  <li> <Strong>Redecorate(beta)</strong>: Redecorate is still in Beta stage, but what it does is to take an empty space from an uploaded image and decorate it extremely fast.</li><br>
+		  <li> <Strong>Refining Tool</strong>: The refining tool increases the size and quality of any images you created making the beautiful renders you do even more incredible.</li>
+
+		  
+		</section>
+		
+		<hr class="divider">
+		  
+		<!-- Overview
+		============================ -->
+		<section id="idocs_overview">
+		  <h2>Overview</h2>
+		  <p class="text-4"> The render pages are very similar between them to make the process simplified, most of them will be presented with 4 steps before rendering, these steps are not visualy represented in the pages, they are more like an idea of flow of creationg.</p>
+		  <hr>
+		  <li>First step: the first steps will often be related to choose an input image or format to start the generation with, followed by picking the mode, seed and if you are creating exteriors or interiors.</li><br>
+		  <li>Second step: the second step will define What are you creating, after choosing what you can click on customization to create variations to your final render.</li><br>
+		  <li>Third step: the Third Step is the finetunning step, here you will change the aspects in wich the AI will render the images, its the most complex part of the generation and requires lots of testing in order to reach better results but we will talk more about it later on its own section.</li><br>
+		  <li>The Final step: Now choose the visibility (if your image will be available on the public gallery or on your own private gallery) and the precision of the image, and once you chose those or used the defaults just press render to start the process.</li><br>
+		  <li><Strong>OBS : Remember you don't need to use all the steps to create a rendering, for that you only need to pick the initial step and define what you want to create on the second</strong></li>
+		  <hr>
+		  <p>Bellow you can see on the image the representation of these steps divisions on the Brainstorm Gen page, keep in mind that each tool has a slightly different look specially on the format or cropping áreas and on the fine-tuning areas, the first step comprehends the image format or cropping tool, the selection of modes, the seed and type, the second what are you creating and the special customizations, the third the finetuning of the AI and the fourth and final step the visibility, precision and the render button.</p>
+		  <img src="assets/images/generative/Generative_Example.webp" class="img-fluid" alt="Responsive image">
+
+		</section>
+		
+		<hr class="divider">  
+		
+		<!-- Icons
+		============================ -->
+		<section id="idocs_genicons">
+		  <h2>Icons</h2>
+		  <p class="text-4"> There are a few Icons or buttons on the generative page, they are very self explanatory but here are their descriptions.</p><br>
+		  <li>The Info button gives you a general info about the page you are on.</li><br>
+		  <img src="assets/images/generative/Info_Button.webp" class="img-fluid" alt="Responsive image"><br>
+		  <li>The i icon represents the informative text related to that item, hover your mouse or touch it to reveal the explanation.</li><br>
+		  <img src="assets/images/generative/i_icon.webp" class="img-fluid" alt="Responsive image"><br>
+		  <li>The randomize button creates an unique number for the seed.</li><br>
+		  <img src="assets/images/generative/Randomize_Button.webp" class="img-fluid" alt="Responsive image"><br>
+		  <li>The trash icon discarts that item from the render.</li><br>
+		  <img src="assets/images/generative/trash_icon.webp" class="img-fluid" alt="Responsive image"><br>
+		  <li>The search bar will reveal a list of possibilities when clicked or touched and if you type something possibilities from the therm you write will be revealed righ above the search bar.</li><br>
+		  <img src="assets/images/generative/Searchbar.webp" class="img-fluid" alt="Responsive image"><br>
+
+
+
+		</section>
+		
+		<hr class="divider">
+		
+		  
+		<!-- Typography
+		============================ -->
+		<section id="idocs_typography">
+		  <h2>Common Parameters</h2>
+		  <p class="text-4"> All the render tools have similar parameters to facilitate the usability of the whole platform and they will be listed here, the unique parameters will be listed on their respective tool documentation.<br> The Common Parameters are, <strong>Modes</strong>, <strong>Seed</strong>, <strong>Type</strong>, <strong>what</strong>, <strong>where</strong>, <strong>Time</strong>, <strong>Weather</strong>, <strong>Color Palette</strong>, <strong>Materials</strong>, <strong>Finetunning</strong>, <strong>Visibility</strong>, <strong>Precision</strong> and the <strong>Render Button</strong>.
+		  <hr>
+		  <p>If you need a fast description of the parameter hover or touch the  <strong>i</strong>  Icon in front of it.</p>
+		  <p>Keep in mind that <strong>you don't need to add all parameters</strong>, most of the parameters are optional for customization.</p>
+		  <p>Some Parameters may interfere with others, its a matter of testing for reaching better results.</p>
+
+
+
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Code
+		============================ -->
+		<section id="idocs_code">
+		  <h2>Modes</h2>
+		  <p class="text-4">The modes help you to achieve distinctive compositions to your scene without changing other settings. The look of your final render is important.</p>
+		  <img src="assets/images/generative/general parameters/modes.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <p class="text-4">The images below have the exact <strong>same parameters and seed</strong> but different modes, check out the difference in composition. </p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/modes/default.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/modes/3D_render.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/modes/cinematic.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/modes/Photograph.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/modes/Archviz.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/modes/pristine.webp" class="img-fluid" alt="Responsive image">
+
+
+        </section>
+		  <hr>
+		<!-- Typography
+		============================ -->
+		<section id="idocs_table">
+		  <h2>Seed</h2>
+		  <p class="text-4">Seed is an unique identifier of your creation in an infinite ammount of possibilities, each seed will create an unique final render. Seeds are good to change if the rendered image is not what you want, changing the seed will give you a different results every time. </p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/seed.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <p class="text-4">You can randomize the value by clicking on the  Randomize button or choose a value manualy. Remember that to replicate the exact same image you will need the seed number.<br>The images below have the exact same settinges with different seeds.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/seed/seed_1.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/seed/seed_2.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/seed/seed_3.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <img src="assets/images/generative/general parameters/seed/seed_4.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/seed/seed_5.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/seed/seed_6.webp" class="img-fluid" alt="Responsive image">
+
+		</section>
+		
+		<hr class="divider">
+		
+		<!-- Type
+		============================ -->
+		<section id="idocs_icons">
+		<h2>Type</h2>
+		<p class="text-4">The Types are very easy to understand, we have either Exteriors or Interiores, choose the one fits the one it most fits project you are creating.<br>Some parameters will change depending on wich you choose not all options are available to both.</p>
+		<hr>
+		<img src="assets/images/generative/general parameters/type.webp" class="img-fluid" alt="Responsive image">
+		<hr>
+		<img src="assets/images/generative/general parameters/type/Interiors.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/type/Exteriors.webp" class="img-fluid" alt="Responsive image">
+		</section>
+		<hr class="divider">
+		
+		<!-- What
+		============================ -->
+        <section id="idocs_image">
+          <h2>What</h2>
+          <p class="text-4">What represents what will be rendered, interiors and exteriors have obviously different locations to choose.<br>Below some location examples.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/what_interiors.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <img src="assets/images/generative/general parameters/what/bathroom.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/what/bedroom.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/what/cafe.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/what/home_office.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/what/kitchen.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/what/living_room.webp" class="img-fluid" alt="Responsive image">
+        </section>
+		
+		<hr class="divider">
+		
+		<!-- Time
+		============================ -->
+        <section id="idocs_video">
+          <h2>Time</h2>
+		  <p class="text-4">Time is a good stylizer to your image, you can choose the period of the day the image will take place with it, it can make the difference when creating variations of the same project.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/time_exteriors.webp" class="img-fluid" alt="Responsive image">
+		  <hr>
+		  <img src="assets/images/generative/general parameters/time/dawn.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/time/morning.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/time/afternoon.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/time/dusk.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/time/night.webp" class="img-fluid" alt="Responsive image">
+        </section>
+		
+		<hr class="divider">
+		
+		<!-- Where
+		============================ -->
+        <section id="idocs_where">
+          <h2>Where</h2>
+          <p class="text-4">Where represents the background ambientation of your scene, you can place it in a city, island, farm, fields, mountains, etc... Choose something that would make your image looking amazing!</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/where_exteriors.webp" class="img-fluid" alt="Responsive image">
+		  <hr>		  
+          <img src="assets/images/generative/general parameters/where/city.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/where/beach.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/where/farm.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/where/mountains.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/where/space.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/where/forrest.webp" class="img-fluid" alt="Responsive image">
+		  
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- weather
+		============================ -->
+        <section id="idocs_weather">
+          <h2>Weather</h2>
+          <p class="text-4">Weather can change the mood of your scene, the beaulty of using neural networks to create images is that you can change from rain to sunny in seconds while on a conventional rendering it could take a lot longer</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/weather_exteriors.webp" class="img-fluid" alt="Responsive image">
+		  <hr>		  
+          <img src="assets/images/generative/general parameters/weather/Mist.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/weather/Overcast.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/weather/Rainy.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/weather/Snowy.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/weather/Sunny.webp" class="img-fluid" alt="Responsive image">
+		  
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- style
+		============================ -->
+        <section id="idocs_style">
+          <h2>Style</h2>
+          <p class="text-4">Here is what the Neural Networks shine, you can completely change the way your project looks by changing styles, the images below have the same parameters with different styles.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/Style.webp" class="img-fluid" alt="Responsive image">
+		  <hr>		  
+          <img src="assets/images/generative/general parameters/style/artdeco.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/style/bauhaus.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/style/brutalist.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/style/futuristic.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/style/modern.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/style/oriental.webp" class="img-fluid" alt="Responsive image">
+		  
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- cp
+		============================ -->
+        <section id="idocs_cp">
+          <h2>Color Palette</h2>
+          <p class="text-4">Color Palettes will allow for an easy color selection to your renders. You can choose from <stront>none</strong> up to <stront>three</strong> colors, you don't need to use all the parameters to generate your images, keep that in mind and some parameters may influentiate others.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/color_palette.webp" class="img-fluid" alt="Responsive image">
+		  <hr>		  
+          <img src="assets/images/generative/general parameters/color_palette/br.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/color_palette/bw.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/color_palette/bg.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/color_palette/bgg.webp" class="img-fluid" alt="Responsive image">
+		  
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- materials
+		============================ -->
+        <section id="idocs_materials">
+          <h2>Materials</h2>
+          <p class="text-4">Materials are a tricky possibility to use with neural networks, sometimes they will bleed into other elements, specially the color palette, test to reach the results you need.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/Materials.webp" class="img-fluid" alt="Responsive image">
+		  <hr>		  
+          <img src="assets/images/generative/general parameters/materials/materials_1.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/materials/materials_2.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/general parameters/materials/material_3.webp" class="img-fluid" alt="Responsive image">
+		  <img src="assets/images/generative/general parameters/materials/materials_4.webp" class="img-fluid" alt="Responsive image">
+		  
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Visibility
+		============================ -->
+        <section id="idocs_visibility">
+          <h2>Visibility</h2>
+          <p class="text-4">The visibility option represents if a rendered image will go to the public or will remain only in your private gallery. You may prefer your image to be hidden from public but that option is not available for free users.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/visibility.webp" class="img-fluid" alt="Responsive image">
+		  
+		  
+        </section>
+        
+		<hr class="divider">
+
+		<!-- Precision
+		============================ -->
+        <section id="idocs_precision">
+          <h2>Precision</h2>
+          <p class="text-4">Precision is a tricky one, the standard precision create high quality images on its own, we made the professional precision in order to enhance even more the size and detailes of the generation.<br>Keep in mind that the standard and professional precision have different RP costs for each tool as pointed out <a href="#idocs_color_schemes">here</a>.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/precision.webp" class="img-fluid" alt="Responsive image">
+		  <hr>	
+		  <a class="popup-img" href="assets/images/generative/general parameters/precision/precision_low.webp"><img src="assets/images/generative/general parameters/precision/standard.webp" class="img-fluid img-thumbnail" alt="image"></a><a class="popup-img" href="assets/images/generative/general parameters/precision/precision_high.webp"><img src="assets/images/generative/general parameters/precision/professional.webp" class="img-fluid img-thumbnail" alt="image"></a>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- render
+		============================ -->
+        <section id="idocs_render">
+          <h2>Render Button</h2>
+          <p class="text-4">After choosing all the parameters you need press the render button to start generating the final image.</p>
+		  <hr>
+		  <img src="assets/images/generative/general parameters/render.webp" class="img-fluid" alt="Responsive image">
+        </section>
+        
+		<hr class="divider">
+		
+
+		
+
+      
+		  <!-- Brainstorm Gen
+		  ============================ -->
+		  <section id="idocs_brainstormgen">
+            <h1>BRAINSTORM GEN</h1>
+			<p class="mb-5">The brainstorm gen will help you conceptualize your project, its oftenly used as the first step on the creative process, here you will point the AI to what you want to create.</p>
+			<p><strong>PRO TIP: Professionals use this tool to brainstorm with their clients in what direction the project will go, so gather ideas os styles or environements and give wings to your imagination!</strong></p>	
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- Tabs BSgen_main.webp
+		  ============================ -->
+		  <section id="idocs_bspageoverview">
+            <h2>First Configurations</h2>
+            <p class="text-4">Once you open the Brainstorm Gen page you can choose several different inputs.</p>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_main.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Format</code> : The Format represents the proportion of the image, it will be: 
+			<ul> <strong>A Square</strong> with the standard size of 1024x1024 or a pro size of 1536x1536
+			<br><strong>A Landscape</strong> with the standard size of 1344x1024 or a pro size of 1760x1336
+			<br><strong>A Portrait</strong> with the standard size of 1024x1344 or a pro size of 1336x1760</ul></li>
+			<img src="assets/images/generative/Brainstorm_gen/Formats.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Modes</code> : The Modes can completeley change the mood of your scene, it is a matter of testing wich mode delivers you the most interesting render.</li>
+			<li><code>Seed</code> : The Seed will create an unique image, you can create an infinite ammount of images with the same parameters just by changing the seed.</li>
+			<li><code>Type</code> : The type defines if you will do an interior render or exterior render.</li>
+			<hr>
+			<p class="text-4"><strong>OBS : </strong>Once you click on the Type (exteriors or interiors), the other portions of the tool will be revealed.</p>
+			
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_complete.webp" class="img-fluid" alt="Responsive image">
+			
+
+			
+          </section>
+          
+		  <hr class="divider">
+		  		  
+         <!-- Tabs BSgen_customizations
+		  ============================ -->
+		  <section id="idocs_bscustomizations">
+            <h2>Customizations</h2>
+            <p class="text-4">The Customizations are optional settings you can use to direct the render to something more specific, like make the scene in a city, or change the weather or the time of the day.
+			<br>Each tool has different customization options, for the Interiors you have the <strong>Time</strong> and the <strong>Style</strong> to choose and for the exteriors you have <strong>time</strong>, <strong>style</strong>, <strong>where</strong> and <strong>weather</strong>.   </p>
+			<li>by utilizing the same settings and just customizing the rendering you can see the range of different possibilities at the image below.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen+customizations.webp" class="img-fluid" alt="Responsive image">
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- bs Color Palette
+		  ============================ -->
+          <section id="idocs_bscolorpalette">
+            <h3>Color Palette</h3>
+            <p class="text-4">Still under the Customizations tab you have the Color Palette picker, here you can infer to the render colors to set up a color palette to your scene.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate on each other.</p>
+			<li>You can choose up to three colors for your color palette, but you don't need to add any color palette to your project if you don't want.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_colorpalette.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- bs Color Materials
+		  ============================ -->
+          <section id="idocs_bsmaterials">
+            <h3>Materials</h3>
+            <p class="text-4">The last Customization tool is the Material picker, with it you can select materials for the walls, ceiling and floor.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint, its also advisable to not use all three material possibilities in order to keep the final image stable.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate one another.
+			<br>You don't need to use any materials in your render if you don't want to, you can leave the AI to add these for you.</p>
+			<li>The material choices are <strong>Stucco</strong>, <strong>Wood</strong>, <strong>Tile</strong>, <strong>Marble</strong>, <strong>Ivy</strong>, <strong>Stone</strong>, <strong>Glass</strong>, <strong>Concrete</strong>.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_materials.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		
+		 <!-- bs Finetunning
+		  ============================ -->
+          <section id="idocs_bsfinetuning">
+            <h3>Fine-Tuning</h3>
+            <p class="text-4">Fine-tunes are the most advanced tools to modify your rendering, the can perform minimal changes to enhance the image or completely change it, each tool has a different set of fine-tuning options.
+			<br>You don't need to change any of these settings to reach good quality images, but they may improve a lot the final render if you know what you are doing.</p>
+			
+			<li><code>AI Imagination</code> : The AI Imagination fine-tune adjusts the attention of the AI to your choices, higher values will make the AI be more focused while lower values will let the AI wonder more.<br>Keep in mind that low values can be foggy while higher values can look more contrasting.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_imagination.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>In the end is a matter of choice and testing, there is no right answer here.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_imagination.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- bs Final steps
+		  ============================ -->
+          <section id="idocs_bsrendering">
+            <h3>Rendering</h3>
+            <p class="text-4">Before rendering you can choose if your image will be on the public or private galleries and the precision of the final image.
+			<br>After that Press the big render button and wait for a bit until your image is processed.</p>
+			<li>The time of wait may very depending on the ammount or requests the server is receiving, usually on Brainstorm Gen these times are the shortest</li>
+			<li>Once the render is done it will be saved on your personal gallery <strong><a target="_blank" href="https://arcseedai.com/PersonalGallery">here</a></strong>.</li>
+			<li>You can also vizualize your image just below the render button or Refine it even more in order to increase the final quality output.</li>
+
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		<!-- Sketch 2 render
+		  ============================ -->
+		  <section id="idocs_sketch2render">
+            <h1>Sketch 2 Render</h1>
+			<p class="mb-5">The Sketch 2 Render tool introduces a more customizable tool to deliver even more precise renderings.
+			<br> The idea of Sketch 2 Render is from any basic input recreate that input under a more realistic or creative structure. Below you can see a few input sources that can be used, but you don't need to stick to these, it can be anything.</p>
+			<img src="assets/images/generative/sketch2render/skt2r_sketches.webp" class="img-fluid" alt="Responsive image">
+			<p><strong>PRO TIP: Professionals use this tool all throught the creative process to have fast renderings without the need of much planing, just with a simple hand sketch or basic blockage of a 3D model you have enough to start planing and creating.</strong></p>	
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- Tabs skt2rendergen_main.webp
+		  ============================ -->
+		  <section id="idocs_skt2rpageoverview">
+            <h2>First Configurations</h2>
+            <p class="text-4">Once you open the Sketch 2 Render page you can choose several different inputs, but the first thing you need to do is to upload the image to be used as a base for rendering. <br> Drag and drop an image from your computer or paste a screenshot with Ctrl v (Cmd V to mac OS) on the big rectangle on  the top of the screen written <strong> Drop the sketch or screenshot here</strong>. </p>
+			<img src="assets/images/generative/sketch2render/skt2r_main.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>CROP</code> : The Crop represents the proportion that the image will be cut in order to be rendered by the AI, once you upload the image you can move it around or zoom in or out, when you get the part of the image to use, just click the done button and the cut will be made.
+			<hr>
+			<img src="assets/images/generative/sketch2render/crop.gif" class="img-fluid" alt="Responsive image ">
+			<hr>
+			<p>The Crop sizes for the Sketch 2 render are:</p>
+			<hr>
+			<ul> <strong>Square</strong> with the standard size of 1024x1024 or a pro size of 1536x1536
+			<br><strong>Landscape</strong> with the standard size of 1344x1024 or a pro size of 1760x1336
+			<br><strong>Portrait</strong> with the standard size of 1024x1344 or a pro size of 1336x1760</ul></li>
+			<img src="assets/images/generative/Brainstorm_gen/Formats.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Modes</code> : The Modes can completeley change the mood of your scene, it is a matter of testing wich mode delivers you the most interesting render.</li>
+			<li><code>Seed</code> : The Seed will create an unique image, you can create an infinite ammount of images with the same parameters just by changing the seed.</li>
+			<li><code>Type</code> : The type defines if you will do an interior render or exterior render.</li>
+			<hr>
+			<p class="text-4"><strong>OBS : </strong>Once you click on the Type (exteriors or interiors), the other portions of the tool will be revealed.</p>
+			
+			<img src="assets/images/generative/sketch2render/skt2r_complete.webp" class="img-fluid" alt="Responsive image">
+			
+
+			
+          </section>
+          
+		  <hr class="divider">
+		  		  
+         <!-- Tabs skt2r_customizations
+		  ============================ -->
+		  <section id="idocs_skt2rcustomizations">
+            <h2>Customizations</h2>
+            <p class="text-4">The Customizations are optional settings you can use to direct the render to something more specific, like make the scene in a city, or change the weather or the time of the day.
+			<br>Each tool has different customization options, for the Sketch 2 Render Interiors you have the <strong>Time</strong> and the <strong>Style</strong> to choose and for the exteriors you have <strong>time</strong>, <strong>style</strong>, <strong>where</strong> and <strong>weather</strong>.   </p>
+			<li>by utilizing the same settings and just customizing the rendering you can see the range of different possibilities at the image below.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen+customizations.webp" class="img-fluid" alt="Responsive image">
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- skt2r Color Palette
+		  ============================ -->
+          <section id="idocs_skt2rcolorpalette">
+            <h3>Color Palette</h3>
+            <p class="text-4">Still under the Customizations tab you have the Color Palette picker, here you can infer to the render colors to set up a color palette to your scene.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate on each other.</p>
+			<li>You can choose up to three colors for your color palette, but you don't need to add any color palette to your project if you don't want.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_colorpalette.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- skt2r Color Materials
+		  ============================ -->
+          <section id="idocs_skt2rmaterials">
+            <h3>Materials</h3>
+            <p class="text-4">The last Customization tool is the Material picker, with it you can select materials for the walls, ceiling and floor.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint, its also advisable to not use all three material possibilities in order to keep the final image stable.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate one another.
+			<br>You don't need to use any materials in your render if you don't want to, you can leave the AI to add these for you.</p>
+			<li>The material choices are <strong>Stucco</strong>, <strong>Wood</strong>, <strong>Tile</strong>, <strong>Marble</strong>, <strong>Ivy</strong>, <strong>Stone</strong>, <strong>Glass</strong>, <strong>Concrete</strong>.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_materials.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		
+		 <!-- skt2r Finetunning
+		  ============================ -->
+          <section id="idocs_skt2rfinetuning">
+            <h3>Fine-Tuning</h3>
+            <p class="text-4">Fine-tunes are the most advanced tools to modify your rendering, the can perform minimal changes to enhance the image or completely change it, each tool has a different set of fine-tuning options.
+			<br>You don't need to change any of these settings to reach good quality images, but they may improve a lot the final render if you know what you are doing.
+			<br>The sketch 2 Render has different sets of sliders if you choose Interiors or Exteriors:</p>
+			
+			<li><code>AI Imagination</code> : The AI Imagination fine-tune adjusts the attention of the AI to your choices, higher values will make the AI be more focused while lower values will let the AI wonder more.<br>Keep in mind that low values can be foggy while higher values can look more contrasting. It appears on the exterior and interior tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_imagination.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>In the end is a matter of choice and testing, there is no right answer here.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_imagination.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			
+			
+			<li><code>Shape Strenght</code> : The Shape Strenght represents <strong>how much</strong> the AI will be attentive to the shapes of the input image(the image you uploaded).It appears only on the interiors.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_strenght.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Creative : Gives more freedom to the AI to imagine, it tends to follow slightly less of the input image.</li>
+			<li>Balanced : Balances creativity but tries to keep the shapes correct.</li>
+			<li>Precise : Tries to follow the shapes without being much creative.</li></ul>
+			<hr>
+			
+			<img src="assets/images/generative/\sketch2render/Shape_strenght.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>keep in mind that the fine-tune sliders will influentiate one another,  The finetune exposure is closely related to the strenght, because of that, for better results try to combine both.</p>
+			<hr>
+			<li><code>Shape Exposure</code> : The Shape Exposure represents for <strong>how long</strong> the AI will try to keep the Shape Strenght. This one is a bit tricky to understand, but think this way, the Shape Strenght controls how strong the shapes will be held during the render and the Shape Exposure is how much of the render time the AI will be holding this shape. It appears on the exterior and interior tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>Ex : if the render time is one minute and we have three options, <strong>soft</strong>, <strong>moderate</strong> and <strong>strong</strong>, the soft will keep the shape strenght running for 25% of the render, the moderate 50% and the strong 80%, this means that you can combine a higher strenght with a low exposure if your results are not getting as you need, or vice-versa.
+			<br>There are three values to choose:</li>
+			<ul><li>Soft : Runs the Shape Strenght for 25% of the total render time.</li>
+			<li>Moderate : Runs the Shape Strenght for 50% of the render time.</li>
+			<li>Strong :  Runs the Shape Strenght for 80% of the render time.</li></ul>
+			<hr>
+			<img src="assets/images/generative/\sketch2render/Shape_exposure.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>We don't use 100% of exposure because our model does not showed increased results with it, but soon you will be able to change these values more freely on the Pro editor.</p>
+			<hr>
+			
+			<li><code>Input Depth</code> : The input depth takes the depth information of the image and use it to control the shape of objects on the scene. It appears only on the Exterior tool.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_input.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Neutral : Do not calculate the depth information of the image.</li>
+			<li>Shalow : Uses 30% of the depth information on the render.</li>
+			<li>Balanced : Uses 60% of the depth information on the render.</li>
+			<li>Deep : Uses all the depth information on the render.</li></ul>
+			<hr>
+			<img src="assets/images/generative/\sketch2render/skt2r_input.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			
+			<li><code>Contour Strenght</code> : The countour strenght traces lines around the corners of the objects on the image, these lines then are taken as guides to create the render, the stronguer this is, more it will follow. It appears only on the Exterior tool.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_input.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Soft : Slightly follows the contours of the image.</li>
+			<li>Moderate : Follows the contours well.</li>
+			<li>Strong : Force the AI to follow the contours even if it doesn't make much sense.</li></ul>
+			<hr>
+			<img src="assets/images/generative/\sketch2render/skt2r_contour.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			<p><strong>OBS : </strong>The Ai tools now require some testing to achieve good results, keep in mind that you have to test all these values to reach better results and each render is unique, depending on the input image the results can change dramatically.</p>
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- skt2r Final steps
+		  ============================ -->
+          <section id="idocs_skt2rrendering">
+            <h3>Rendering</h3>
+            <p class="text-4">Before rendering you can choose if your image will be on the public or private galleries and the precision of the final image.
+			<br>After that Press the big render button and wait for a bit until your image is processed.</p>
+			<li>The time of wait may very depending on the ammount or requests the server is receiving, usually on Brainstorm Gen these times are the shortest</li>
+			<li>Once the render is done it will be saved on your personal gallery <strong><a target="_blank" href="https://arcseedai.com/PersonalGallery">here</a></strong>.</li>
+			<li>You can also vizualize your image just below the render button or Refine it even more in order to increase the final quality output.</li>
+
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		<!-- Canvas alchemy
+		  ============================ -->
+		  <section id="idocs_canvas">
+            <h1>Canvas Alchemy</h1>
+			<p class="mb-5">The Canvas Alchemy is an artistic tool, you can use it in a multitude of different ways. It's not often used during the project development but at the end of the process to create almost like a paiting of the project you could hang on your wall.</p>
+			<p><strong>PRO TIP: This tool is perfect for gifting clients or creating unique social media posts with your projects and sometimes give a new life to older cretions with Canvas Alchemy.</strong></p>	
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- Tabs ca_main.webp
+		  ============================ -->
+		  <section id="idocs_capageoverview">
+            <h2>First Configurations</h2>
+			<p class="text-4">Different from other tools when you open Canvas Alchemy you will need to choose between two processes one is the Simple and the other is the Advanced.</p>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/ca_simpleadv.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			
+			<li><code>Simple</code> : in this process you will need first to add a Style image that will artistically "paint" over the render. The AI then will create the enviornment to receive the style by the choices you pick from the next steps.</li>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/ca_simple.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Advanced</code> : in this process you will need first to add a Style image that will artistically "paint" over the render then you need to add another input image that will receive the style, this way you can control what environment will be changed.</li>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/ca_advanced.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			
+            <p class="text-4">After you choose between Simple and Advanced processess you see the other options to contiue your rendering wich are slightlty different.</p>
+			<hr>
+			<p><strong>SIMPLE</strong></p>
+			<img src="assets/images/generative/Canvas_alchemy/ca_simple_page.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<p><strong>ADVANCED</strong></p>
+			<img src="assets/images/generative/Canvas_alchemy/ca_advanced_page.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Format or Crop</code> : The Format represents the proportion of the image or how it will be cropped, they are: 
+			<ul> <strong>Square</strong> with the standard size of 1024x1024 or a pro size of 1536x1536
+			<br><strong>Landscape</strong> with the standard size of 1224x816 or a pro size of 1536x1024
+			<br><strong>Portrait</strong> with the standard size of 816x1224 or a pro size of 1024x1536</ul></li>
+			<img src="assets/images/generative/Canvas_alchemy/ca_formats.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Modes</code> : The Modes can completeley change the mood of your scene, it is a matter of testing wich mode delivers you the most interesting render.</li>
+			<li><code>Seed</code> : The Seed will create an unique image, you can create an infinite ammount of images with the same parameters just by changing the seed.</li>
+			<li><code>Type</code> : The type defines if you will do an interior render or exterior render.</li>
+			<hr>
+			<p class="text-4"><strong>OBS : </strong>Once you click on the Type (exteriors or interiors), the other portions of the tool will be revealed.</p>
+			
+			<img src="assets/images/generative/Canvas_alchemy/ca_page_simple.webp" class="img-fluid" alt="Responsive image">
+			
+
+			
+          </section>
+          
+		  <hr class="divider">
+		  		  
+         <!-- Tabs ca_customizations
+		  ============================ -->
+		  <section id="idocs_cacustomizations">
+            <h2>Customizations</h2>
+            <p class="text-4">The Customizations are optional settings you can use to direct the render to something more specific, like make the scene in a city, or change the weather or the time of the day.
+			<br>Each tool has different customization options, for the Canvas Alchemy you have the <strong>Time</strong> and the <strong>Style</strong> to choose and for the exteriors you have <strong>time</strong>, <strong>style</strong>, <strong>where</strong> and <strong>weather</strong>.   </p>
+			<li>by utilizing the same settings and just customizing the rendering you can see the range of different possibilities at the image below.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen+customizations.webp" class="img-fluid" alt="Responsive image">
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- ca Color Palette
+		  ============================ -->
+          <section id="idocs_cacolorpalette">
+            <h3>Color Palette</h3>
+            <p class="text-4">Still under the Customizations tab you have the Color Palette picker, here you can infer to the render colors to set up a color palette to your scene.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate on each other.</p>
+			<li>You can choose up to three colors for your color palette, but you don't need to add any color palette to your project if you don't want.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_colorpalette.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- ca Color Materials
+		  ============================ -->
+          <section id="idocs_camaterials">
+            <h3>Materials</h3>
+            <p class="text-4">The last Customization tool is the Material picker, with it you can select materials for the walls, ceiling and floor.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint, its also advisable to not use all three material possibilities in order to keep the final image stable.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate one another.
+			<br>You don't need to use any materials in your render if you don't want to, you can leave the AI to add these for you.</p>
+			<li>The material choices are <strong>Stucco</strong>, <strong>Wood</strong>, <strong>Tile</strong>, <strong>Marble</strong>, <strong>Ivy</strong>, <strong>Stone</strong>, <strong>Glass</strong>, <strong>Concrete</strong>.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_materials.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		
+		 <!-- ca Finetunning
+		  ============================ -->
+          <section id="idocs_cafinetuning">
+            <h3>Fine-Tuning</h3>
+            <p class="text-4">Fine-tunes are the most advanced tools to modify your rendering, the can perform minimal changes to enhance the image or completely change it, each tool has a different set of fine-tuning options.
+			<br>You don't need to change any of these settings to reach good quality images, but they may improve a lot the final render if you know what you are doing.
+			<br>The sketch 2 Render has different sets of sliders if you choose Interiors or Exteriors:</p>
+			
+			<li><code>AI Imagination</code> : The AI Imagination fine-tune adjusts the attention of the AI to your choices, higher values will make the AI be more focused while lower values will let the AI wonder more.<br>Keep in mind that low values can be foggy while higher values can look more contrasting. It appears on the simple and advanced tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_imagination.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>In the end is a matter of choice and testing, there is no right answer here.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_imagination.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			
+			
+			<li><code>Shape Strenght</code> : The Shape Strenght represents <strong>how much</strong> the AI will be attentive to the shapes of the input image(the image you uploaded).It appears only on the Advanced tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_strenght.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Creative : Gives more freedom to the AI to imagine, it tends to follow slightly less of the input image.</li>
+			<li>Balanced : Balances creativity but tries to keep the shapes correct.</li>
+			<li>Precise : Tries to follow the shapes without being much creative.</li></ul>
+			<hr>
+			
+			<img src="assets/images/generative/Canvas_alchemy/ca_shape_strenght.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>keep in mind that the fine-tune sliders will influentiate one another,  The finetune exposure is closely related to the strenght, because of that, for better results try to combine both.</p>
+			<hr>
+			<li><code>Shape Exposure</code> : The Shape Exposure represents for <strong>how long</strong> the AI will try to keep the Shape Strenght. This one is a bit tricky to understand, but think this way, the Shape Strenght controls how strong the shapes will be held during the render and the Shape Exposure is how much of the render time the AI will be holding this shape. It appears only in advanced tools. The changes in results are mild in this case, but they can help fixing minor issues.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>Ex : if the render time is one minute and we have three options, <strong>soft</strong>, <strong>moderate</strong> and <strong>strong</strong>, the soft will keep the shape strenght running for 25% of the render, the moderate 50% and the strong 80%, this means that you can combine a higher strenght with a low exposure if your results are not getting as you need, or vice-versa.
+			<br>There are three values to choose:</li>
+			<ul><li>Soft : Runs the Shape Strenght for 25% of the total render time.</li>
+			<li>Moderate : Runs the Shape Strenght for 50% of the render time.</li>
+			<li>Strong :  Runs the Shape Strenght for 80% of the render time.</li></ul>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/ca_shape_exposure.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>We don't use 100% of exposure because our model does not showed increased results with it, but soon you will be able to change these values more freely on the Pro editor.</p>
+			<hr>
+			
+			<li><code>Style Transfer</code> : The Style transfer represents how much of the style the AI will use while generating the image. Strong values will bring more of the original style to the render while weak values will soft the stylization. It appears on the simple and advanced tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/Style_transfer.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>On the gif below you can see the influence of the Style Transfer from weak to Strong.</li>
+			<br>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/Style_transfer.gif" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			<li><code>Style Exposure</code> : This value represents <strong> for how long</strong> the style transfer will last, weaker values will take only a small part of the rendering process to change the style of the final image while stronger values will use the whole rendering process to change the style. It appears on the simple and advanced tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/Style_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>Ex : if the render time is one minute the weak will keep the stylizing process running for 20% of the render and the strong for 100%.
+			<img src="assets/images/generative/Canvas_alchemy/ca_style_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			<li><code>Originality</code> : The Originality represents how much of the input image to receive the style will change on the rendering process. It appears only on the advanced tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/originality.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>If the value is the minimum the image won't change, if it is on the highest it will change completely. On the Gif below you can see how low values barely change the image while with higher values the render absorbs completely the style.</li>
+			<hr>
+			<img src="assets/images/generative/Canvas_alchemy/originality.gif" class="img-fluid" alt="Responsive image">
+
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- ca Final steps
+		  ============================ -->
+          <section id="idocs_carendering">
+            <h3>Rendering</h3>
+            <p class="text-4">Before rendering you can choose if your image will be on the public or private galleries and the precision of the final image.
+			<br>After that Press the big render button and wait for a bit until your image is processed.</p>
+			<li>The time of wait may very depending on the ammount or requests the server is receiving, usually on Brainstorm Gen these times are the shortest</li>
+			<li>Once the render is done it will be saved on your personal gallery <strong><a target="_blank" href="https://arcseedai.com/PersonalGallery">here</a></strong>.</li>
+			<li>You can also vizualize your image just below the render button or Refine it even more in order to increase the final quality output.</li>
+
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		<!-- Re-render
+		  ============================ -->
+		  <section id="idocs_rerender">
+            <h1>Re-render</h1>
+			<p class="mb-5">Re-render improves any image you upload, it can be an old low quality rendering, an image that has no shadows or shading, can be even a photograph that you want to give a professional look.</p>
+			<p><strong>PRO TIP: This tool is perfect if you want to quickly increase the realism of old renderings for social media posts and marketing!</strong></p>	
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- re-render rendergen_main.webp
+		  ============================ -->
+		  <section id="idocs_rrenderpageoverview">
+            <h2>First Configurations</h2>
+            <p class="text-4">When you open the Re-render page you can choose several different inputs, but the first thing you need to do is to upload the image to be used as a base for rendering. <br> Drag and drop an image from your computer or paste a screenshot with Ctrl v (Cmd V on mac OS) on the big rectangle on  the top of the screen written <strong> Drop the sketch or screenshot here</strong>.</p>
+			<img src="assets/images/generative/Rerender/rr_page.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Crop</code> : The Crop represents the proportion of the image, it will be: 
+			<ul> <strong>Square</strong> with the standard size of 1024x1024 or a pro size of 1536x1536
+			<br><strong>Landscape</strong> with the standard size of 1344x1024 or a pro size of 1760x1336
+			<br><strong>Portrait</strong> with the standard size of 1024x1344 or a pro size of 1336x1760</ul></li>
+			<img src="assets/images/generative/Brainstorm_gen/Formats.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Modes</code> : The Modes can completeley change the mood of your scene, it is a matter of testing wich mode delivers you the most interesting render.</li>
+			<li><code>Seed</code> : The Seed will create an unique image, you can create an infinite ammount of images with the same parameters just by changing the seed.</li>
+			<li><code>Type</code> : The type defines if you will do an interior render or exterior render.</li>
+			<hr>
+			<p class="text-4"><strong>OBS : </strong>Once you click on the Type (exteriors or interiors), the other portions of the tool will be revealed.</p>
+			
+			<img src="assets/images/generative/Rerender/rr_completepage.webp" class="img-fluid" alt="Responsive image">
+			
+
+			
+          </section>
+          
+		  <hr class="divider">
+		  		  
+         <!-- re-render skt2r_customizations
+		  ============================ -->
+		  <section id="idocs_rrendercustomizations">
+            <h2>Customizations</h2>
+            <p class="text-4">
+			<br>Each tool has different customization options, for the Re-render Interiors you have the <strong>Time</strong> and the <strong>Style</strong> to choose and for the exteriors you have <strong>time</strong>, <strong>style</strong>, <strong>where</strong> and <strong>weather</strong>.   </p>
+			<li>by utilizing the same settings and just customizing the rendering you can see the range of different possibilities at the image below.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen+customizations.webp" class="img-fluid" alt="Responsive image">
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- re-render Color Palette
+		  ============================ -->
+          <section id="idocs_rrendercolorpalette">
+            <h3>Color Palette</h3>
+            <p class="text-4">Still under the Customizations tab you have the Color Palette picker, here you can infer to the render colors to set up a color palette to your scene.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate on each other.</p>
+			<li>You can choose up to three colors for your color palette, but you don't need to add any color palette to your project if you don't want.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_colorpalette.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- re-render Color Materials
+		  ============================ -->
+          <section id="idocs_rrendermaterials">
+            <h3>Materials</h3>
+            <p class="text-4">The last Customization tool is the Material picker, with it you can select materials for the walls, ceiling and floor.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint, its also advisable to not use all three material possibilities in order to keep the final image stable.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate one another.
+			<br>You don't need to use any materials in your render if you don't want to, you can leave the AI to add these for you.</p>
+			<li>The material choices are <strong>Stucco</strong>, <strong>Wood</strong>, <strong>Tile</strong>, <strong>Marble</strong>, <strong>Ivy</strong>, <strong>Stone</strong>, <strong>Glass</strong>, <strong>Concrete</strong>.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_materials.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		
+		 <!-- re-render Finetunning
+		  ============================ -->
+          <section id="idocs_rrenderfinetuning">
+            <h3>Fine-Tuning</h3>
+            <p class="text-4">Fine-tunes are the most advanced tools to modify your rendering, the can perform minimal changes to enhance the image or completely change it, each tool has a different set of fine-tuning options.
+			<br>You don't need to change any of these settings to reach good quality images, but they may improve a lot the final render if you know what you are doing.</p>
+			
+			<li><code>AI Imagination</code> : The AI Imagination fine-tune adjusts the attention of the AI to your choices, higher values will make the AI be more focused while lower values will let the AI wonder more.<br>Keep in mind that low values can be foggy while higher values can look more contrasting.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_imagination.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>In the end is a matter of choice and testing, there is no right answer here.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_imagination.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			
+			
+			<li><code>Shape Strenght</code> : The Shape Strenght represents <strong>how much</strong> the AI will be attentive to the shapes of the input image(the image you uploaded).
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_strenght.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Creative : Gives more freedom to the AI to imagine, it tends to follow slightly less of the input image.</li>
+			<li>Balanced : Balances creativity but tries to keep the shapes correct.</li>
+			<li>Precise : Tries to follow the shapes without being much creative.</li></ul>
+			<hr>			
+			<img src="assets/images/generative/\sketch2render/Shape_strenght.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>keep in mind that the fine-tune sliders will influentiate one another,  The finetune exposure is closely related to the strenght, because of that, for better results try to combine both.</p>
+			<hr>
+			
+			<li><code>Originality</code> : The Originality represents how much of the input image to be rendered again will change on the rendering process.
+			<hr>
+			<img src="assets/images/generative/Sliders/originality.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>If the value is the minimum the image won't change, if it is on the highest it will change completely. On the Gif below you can see how low values barely change the image while with higher values the render absorbs completely the style.</li>
+			<hr>
+			<img src="assets/images/generative/Rerender/inputimage.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/Rerender/originality_rerender.gif" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			<li><code>Shape Guidance</code> : The Shape Guidance creates a guide that the rendering process will follow in order preserve the shape of your render. The AI will try to drawn your image with lines and if it is too strict it gets a lot of the details of the scene, some that maybe you don't want in order to give it a little more freedom, in the end you will have to test to achieve the best results.
+			<hr>
+			<img src="assets/images/generative/Sliders/Shape_guidance.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>There are three values to choose:</li>
+			<ul><li>Loose : trace a few lines just to try to understand a basic shape, its good if you want to give the AI more freedom to create.</li>
+			<li>Balanced : Tries to balance the freedom while tries to stay coherent with the input image.</li>
+			<li>Strict :  Tries to trace all the lines of the image, it can cause some mistakes because the AI can misinterpretate some lines, but it will try as much as it can to drawn the whole image.</li></ul>
+			<hr>
+			<img src="assets/images/generative/Rerender/inputimage.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/Rerender/shape_guidance.gif" class="img-fluid" alt="Responsive image">  
+				<hr>
+			
+			
+			
+			<li><code>Original Resemblance</code> : This slider will help you control how much of the original image will be represented on the final rendering. It is similar to originality, but the difference here is that the AI will try to keep a closer resemblance of the original image even if you use a high originality setting.
+			<hr>
+			<img src="assets/images/generative/sliders/Original_resemblance.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br> Imagine that the Originality will use the actual input image blending it on the process while with the Original Resemblance the AI will try to understand the input image and then recreate it.
+			<br> One another important note about Originality and Original Resemblance is that the Originality on its lowest value won't change the image while the original resemblance will change the image the most on the lowest setting.
+			<hr>
+			<br>There are three values to choose:</li>
+			<ul><li>Light : The AI will give a lighter touch of the original image on the final render.</li>
+			<li>Moderate : The AI will give a balanced touch of the original image on the final render.</li>
+			<li>Strong :  The AI will try to keep the final render as close as it can to the input image.</li></ul>
+			<hr>
+			<br>
+			<img src="assets/images/generative/Rerender/inputimage.webp" class="img-fluid" alt="Responsive image"><img src="assets/images/generative/Rerender/resemblance_rerender.gif" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- re-render Final steps
+		  ============================ -->
+          <section id="idocs_rrenderrendering">
+            <h3>Rendering</h3>
+            <p class="text-4">Before rendering you can choose if your image will be on the public or private galleries and the precision of the final image.
+			<br>After that Press the big render button and wait for a bit until your image is processed.</p>
+			<li>The time of wait may very depending on the ammount or requests the server is receiving, usually on Brainstorm Gen these times are the shortest</li>
+			<li>Once the render is done it will be saved on your personal gallery <strong><a target="_blank" href="https://arcseedai.com/PersonalGallery">here</a></strong>.</li>
+			<li>You can also vizualize your image just below the render button or Refine it even more in order to increase the final quality output.</li>
+
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- Redecorate (beta)
+		  ============================ -->
+		  <section id="idocs_redecorate">
+            <h1>Redecorate (beta)</h1>
+			<p class="mb-5">The redecorate is still in beta wich means that it is still in development. It can create great results but you will have to experiement, from all the tools is the hardest to master as it is.</p>
+			<p><strong>PRO TIP: Different seeds can completely change the image, doing that can help you reach desired results!</strong></p>	
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- redecorate_main.webp
+		  ============================ -->
+		  <section id="idocs_redpageoverview">
+            <h2>First Configurations</h2>
+            <p class="text-4">The Re-decorate works only for interior scenes for now, to start the process, upload an image of an empty room, straight shots are recomended in order to achieve better results.</p>
+			
+			<hr>
+			<li><code>Crop</code> : The Crop represents the proportion that the image will be cut in order to be rendered by the AI, once you upload the image you can move it around or zoom in or out, when you get the part of the image to use, just click the done button and the cut will be made.
+			<ul> <strong>A Square</strong> with the standard size of 1024x1024 or a pro size of 1536x1536
+			<br><strong>A Landscape</strong> with the standard size of 1344x1024 or a pro size of 1760x1336
+			<br><strong>A Portrait</strong> with the standard size of 1024x1344 or a pro size of 1336x1760</ul></li>
+			<img src="assets/images/generative/Brainstorm_gen/Formats.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<li><code>Modes</code> : The Modes can completeley change the mood of your scene, it is a matter of testing wich mode delivers you the most interesting render.</li>
+			<li><code>Seed</code> : The Seed will create an unique image, you can create an infinite ammount of images with the same parameters just by changing the seed.</li>
+			<li><code>Type</code> : The type defines if you will do an interior render or exterior render.</li>
+			<hr>
+			
+			
+			<img src="assets/images/generative/Redecorate/Red_page.webp" class="img-fluid" alt="Responsive image">
+			
+
+			
+          </section>
+          
+		  <hr class="divider">
+		  		  
+         <!-- redecorate_customizations
+		  ============================ -->
+		  <section id="idocs_redcustomizations">
+            <h2>Customizations</h2>
+            <p class="text-4">The Customizations are optional settings you can use to direct the render to something more specific, like make the scene in a city, or change the weather or the time of the day.
+			<br>Each tool has different customization options, for the Re-decorate you have the <strong>Time</strong> and the <strong>Style</strong> to choose and for the exteriors you have <strong>time</strong>, <strong>style</strong>, <strong>where</strong> and <strong>weather</strong>.   </p>
+			<li>by utilizing the same settings and just customizing the rendering you can see the range of different possibilities at the image below.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen+customizations.webp" class="img-fluid" alt="Responsive image">
+			
+          </section>
+          
+		  <hr class="divider">
+		  
+		  <!-- redecorate Color Palette
+		  ============================ -->
+          <section id="idocs_redcolorpalette">
+            <h3>Color Palette</h3>
+            <p class="text-4">Still under the Customizations tab you have the Color Palette picker, here you can infer to the render colors to set up a color palette to your scene.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate on each other.</p>
+			<li>You can choose up to three colors for your color palette, but you don't need to add any color palette to your project if you don't want.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_colorpalette.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- redecorate Color Materials
+		  ============================ -->
+          <section id="idocs_redmaterials">
+            <h3>Materials</h3>
+            <p class="text-4">The last Customization tool is the Material picker, with it you can select materials for the walls, ceiling and floor.
+			<br>Keep in mind that we are dealing with a neural network and it may not follow completely your direction, think of it as a hint, its also advisable to not use all three material possibilities in order to keep the final image stable.
+			<br>Be aware that if you use the Color Palette Picker and also add Materials to your render, the results may inlfuentiate one another.
+			<br>You don't need to use any materials in your render if you don't want to, you can leave the AI to add these for you.</p>
+			<li>The material choices are <strong>Stucco</strong>, <strong>Wood</strong>, <strong>Tile</strong>, <strong>Marble</strong>, <strong>Ivy</strong>, <strong>Stone</strong>, <strong>Glass</strong>, <strong>Concrete</strong>.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_materials.webp" class="img-fluid" alt="Responsive image">  
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		
+		 <!-- redecorate Finetunning
+		  ============================ -->
+          <section id="idocs_redfinetuning">
+            <h3>Fine-Tuning</h3>
+            <p class="text-4">Fine-tunes are the most advanced tools to modify your rendering, the can perform minimal changes to enhance the image or completely change it, each tool has a different set of fine-tuning options.
+			<br>You don't need to change any of these settings to reach good quality images, but they may improve a lot the final render if you know what you are doing.</p>
+			
+			
+			<li><code>AI Imagination</code> : The AI Imagination fine-tune adjusts the attention of the AI to your choices, higher values will make the AI be more focused while lower values will let the AI wonder more.<br>Keep in mind that low values can be foggy while higher values can look more contrasting. It appears on the exterior and interior tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_imagination.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>In the end is a matter of choice and testing, there is no right answer here.</li>
+			<img src="assets/images/generative/Brainstorm_gen/BSgen_imagination.webp" class="img-fluid" alt="Responsive image">  
+			<hr>
+			
+			
+			<li><code>Shape Strenght</code> : The Shape Strenght represents <strong>how much</strong> the AI will be attentive to the shapes of the input image(the image you uploaded).It appears only on the interiors.<li>
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_strenght.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>You can chose three values to it</li>
+			<ul><li>Creative : Gives more freedom to the AI to imagine, it tends to follow slightly less of the input image.</li>
+			<li>Balanced : Balances creativity but tries to keep the shapes correct.</li>
+			<li>Precise : Tries to follow the shapes without being much creative.</li></ul>
+			<hr>
+			
+			<img src="assets/images/generative/\sketch2render/Shape_strenght.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>keep in mind that the fine-tune sliders will influentiate one another,  The finetune exposure is closely related to the strenght, because of that, for better results try to combine both.</p>
+			<hr>
+			
+			<li><code>Shape Exposure</code> : The Shape Exposure represents for <strong>how long</strong> the AI will try to keep the Shape Strenght. This one is a bit tricky to understand, but think this way, the Shape Strenght controls how strong the shapes will be held during the render and the Shape Exposure is how much of the render time the AI will be holding this shape. It appears on the exterior and interior tools.
+			<hr>
+			<img src="assets/images/generative/Sliders/AI_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>Ex : if the render time is one minute and we have three options, <strong>soft</strong>, <strong>moderate</strong> and <strong>strong</strong>, the soft will keep the shape strenght running for 25% of the render, the moderate 50% and the strong 80%, this means that you can combine a higher strenght with a low exposure if your results are not getting as you need, or vice-versa.
+			<br>There are three values to choose:</li>
+			<ul><li>Soft : Runs the Shape Strenght for 25% of the total render time.</li>
+			<li>Moderate : Runs the Shape Strenght for 50% of the render time.</li>
+			<li>Strong :  Runs the Shape Strenght for 80% of the render time.</li></ul>
+			<hr>
+			<img src="assets/images/generative/sketch2render/Shape_exposure.webp" class="img-fluid" alt="Responsive image">  
+			<p><strong>OBS : </strong>We don't use 100% of exposure because our model does not showed increased results with it, but soon you will be able to change these values more freely on the Pro editor.</p>
+			<hr>
+			
+			<li><code>Room Weight</code> : The Room Weight fine-tune tries to keep more of the original look of the room in the image, if you want more change try nulifying this value. As most of the parameters on the Re-decorate, it is a little complicated to grasp what they do without trying yourself, but think of it more as a stylizing factor than a shape correction.
+			<hr>
+			<img src="assets/images/generative/Sliders/Room_weight.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>It goes from Null to Heavy, while null does not use any of the stylistic information on the rendering, the heavy tries to hold more of the style when rendering the final image.</li>
+			<hr>
+			<img src="assets/images/generative/Redecorate/Room_weight.webp" class="img-fluid" alt="Responsive image">  
+			
+			<hr>
+			
+			<li><code>Room Weight Exposure</code> : The Room Weight Exposure works similarly to the Shape Exposure but instead of influentiate the Shape Strenght it influentiates the Room Weight. The Room Weight Strenght controls the ammount of time that the Room Weight will influentiate the final render.
+			<hr>
+			<img src="assets/images/generative/Sliders/Room_weight_style.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>The Slider goes from Weak to Strong, the weak represents the Room weight will run through 10% of the render time and the strong represents that it will run through the whole render time.</li>
+
+			<hr>
+			<img src="assets/images/generative/Redecorate/room_style.webp" class="img-fluid" alt="Responsive image">  
+			
+			<hr>
+			
+			<li><code>Shape Boost</code> :  The shape boost forces the AI to follow the shape of the room even more, it is an aditional neural network that works only on boosting the original shape on top of the original Shape Strenght.
+			<hr>
+			<img src="assets/images/generative/Sliders/Shape_boost.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			
+			<br>Choose from 1 to 5 choose how strong the boost will be.</li>
+
+			<hr>
+
+			<p><strong>OBS : </strong>This value can make your final render show only the original room, it is a delicate balance to reach perfect results and it requires some testing.</p>
+			<hr>
+			
+			<li><code>Boost Exposure</code> : The Boost Exposure, as for other sorts of exposures relates to time, for how long the Shape boost will be present on the rendering process.
+			<hr>
+			<img src="assets/images/generative/Sliders/boost_exposure.webp" class="img-fluid" alt="Responsive image">
+			<hr>
+			<br>Choose from 1 to 5 choose how long the boost will participate in the render time, being 1 = 10% and 5 = 50%.
+			<hr>
+
+			
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		<!-- redecorate Final steps
+		  ============================ -->
+          <section id="idocs_redrendering">
+            <h3>Rendering</h3>
+            <p class="text-4">Before rendering you can choose if your image will be on the public or private galleries and the precision of the final image.
+			<br>After that Press the big render button and wait for a bit until your image is processed.</p>
+			<li>The time of wait may very depending on the ammount or requests the server is receiving, usually on Brainstorm Gen these times are the shortest</li>
+			<li>Once the render is done it will be saved on your personal gallery <strong><a target="_blank" href="https://arcseedai.com/PersonalGallery">here</a></strong>.</li>
+			<li>You can also vizualize your image just below the render button or Refine it even more in order to increase the final quality output.</li>
+
+			
+          </section>
+        
+        
+		<hr class="divider">
+		
+		
+		<!-- FAQ
+		============================ -->
+		<section id="idocs_faq">
+          <h2>FAQ</h2>
+          <p class="text-4">A FAQ is a list of frequently asked questions (FAQs) and answers on a particular topic.</p>
+          
+		  <div class="row">
+          <div class="col-lg-12">
+            <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+              <div class="card">
+                <div class="card-header" id="heading1">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Do you really use Artificial Inteligence on the renderings?</a> </h5>
+                </div>
+                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                  <div class="card-body"> Yes, we use several different neural networks to deliver the most optimized and realistic renderings. </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading2">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">How I change my Subscription Plan?</a> </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                  <div class="card-body">In the case you want to exchange subscription plans click <a target="_blank" href="https://arcseedai.com/Dashboard">Here</a>. Note that you will not be able to choose the free plan from the list; to select the free plan, you will need to cancel your subscription on the subscription settings.
+				  <br><img src="assets/images/FAQ/FAQ_Subscription.webp" class="img-fluid" alt="Responsive image"></div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">How to buy render points?</a> </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                  <div class="card-body"> If you need more rendering points, you can add them by clicking on the subscription settings on the dashboard<a target="_blank" href="https://arcseedai.com/Dashboard">Here</a>. Depending on the plan, the minimum quantities change to fit the specific plan. We do this because of transaction costs, so for each plan, we need a minimum amount of points to be recharged. After that, the points will be added in increments of 100 by pressing the + sign. After that, just click on "add" to proceed to payment.. 
+				  <br><img src="assets/images/FAQ/FAQ_render_points.webp" class="img-fluid" alt="Responsive image"></div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading4">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Where to find the images I created?</a> </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#popularTopics">
+                  <div class="card-body"> To find the images you made on our platform go to the dashboard <a target="_blank" href="https://arcseedai.com/Dashboard">Here</a> and click on Personal Gallery. If you want to see the public gallery click <a target="_blank" href="https://arcseedai.com/Dashboard">Here</a>. </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading5">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">How do I learn more or improve my results?</a> </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#popularTopics">
+                  <div class="card-body">This documentation page has a lot of data explaining every setting in the platform, you can also check here for tutorials. </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading6">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How to cancel my subscription plan?</a> </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#popularTopics">
+                  <div class="card-body"> In order to cancel your subscription plan just click <a target="_blank" href="https://arcseedai.com/Dashboard">Here</a> and on subscription settings, then in cancel my subscription, after that you have to respond a very fast survay and your plan will be reverted into a free account. 
+				  <br><img src="assets/images/FAQ/FAQ_cancelsubscription.webp" class="img-fluid" alt="Responsive image"></div>
+			  <div class="card">
+                <div class="card-header" id="heading6">
+                  <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How to delete my account?</a> </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#popularTopics">
+                  <div class="card-body"> In order to delete your account plan just click <a target="_blank" href="https://arcseedai.com/Dashboard">Here</a> and in profile settings, then delete my account, after that you have to respond a very fast survay and your plan will be reverted into a free account, if you want to talk to us before that, please do it here.. 
+				  <br><img src="assets/images/FAQ/FAQ_cancelaccount.webp" class="img-fluid" alt="Responsive image"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        </section>
+        
+		<hr class="divider">
+        
+       
+		
+        <!-- Changelog
+		============================ 
+		
+        <section id="idocs_changelog">
+          <h2>Changelog</h2>
+          <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
+		  <p class="alert alert-info mb-5"> For Future Updates Follow Us <a target="_blank" href="http://themeforest.net/user/harnishdesign?ref=HarnishDesign">@themeforest</a> / <a target="_blank" href="http://facebook.com/harnishdesign">@facebook</a> / <a target="_blank" href="http://twitter.com/harnishdesign">@twitter</a> / <a target="_blank" href="https://dribbble.com/harnishdesign">@Dribbble</a></p>
+          
+		  <h3 id="v1-1">Version 1.1 <small class="text-muted">(12 Oct, 2020)</small></h3>
+          <ul class="changelog">
+            <li><span class="badge badge-success">Added</span> Your information here for added new feature</li>
+            <li><span class="badge badge-danger">Fixed</span> Some minor bugs for browser compatibility</li>
+			<li><span class="badge badge-danger">Fixed</span> Some minor bugs for responsive</li>
+            <li><span class="badge badge-info">Updated</span> FontAwesome to Latest Version</li>
+			<li><span class="badge badge-info">Updated</span> Bootstrap to Latest Version</li>
+			<li><span class="badge badge-info">Updated</span> Improvements in CSS and JS</li>
+          </ul>
+		  
+		  <hr class="divider"> -->
+		  <section id="idocs_changelog">
+          <h2>Changelog</h2>
+          <h3 id="v1-0">Version 1.0 <small class="text-muted">(2 August, 2024)</small></h3>
+          <p>Initial Release</p>
+        </section>        
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+        <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+      </ul>
+      <p class="text-center">Copyright &copy; 2024 <a href="http://www.arcseedai.com">Arcseed AI</a>. All Rights Reserved.</p>
+	  <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a>.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
